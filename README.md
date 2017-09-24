@@ -4,6 +4,8 @@ my ADALM-PLUTO experimants
 
 ### Power-on
 
+Plugged into my OpenSuSe desktop.
+
 ```
 [ 1017.451558] usb 3-4: new high-speed USB device number 6 using xhci_hcd
 [ 1023.223318] usb 3-4: new high-speed USB device number 8 using xhci_hcd
