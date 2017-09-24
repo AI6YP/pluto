@@ -13,3 +13,5 @@ Plugged into my OpenSuSe desktop.
 [ 1034.650866] usb 3-4: new high-speed USB device number 11 using xhci_hcd
 ...
 ```
+
+Reading [PLUTOSDR QUICKSTART GUIDE](https://www.rtl-sdr.com/plutosdr-quickstart-guide/)
