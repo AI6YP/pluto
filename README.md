@@ -12,4 +12,6 @@ Plugged ADALM-PLUTO into my OpenSuSe desktop.
 ...
 ```
 
+Well.. strange.
+
 Reading [PLUTOSDR QUICKSTART GUIDE](https://www.rtl-sdr.com/plutosdr-quickstart-guide/)
