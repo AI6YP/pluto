@@ -15,3 +15,8 @@ Plugged ADALM-PLUTO into my OpenSuSe desktop.
 Well.. strange.
 
 Reading [PLUTOSDR QUICKSTART GUIDE](https://www.rtl-sdr.com/plutosdr-quickstart-guide/)
+
+## 2017-09-24
+
+added rules file from here:
+https://github.com/analogdevicesinc/plutosdr-fw/blob/master/scripts/53-adi-plutosdr-usb.rules
