@@ -41,3 +41,5 @@ Still getting OTG errors:
 
 added rules file from here:
 https://github.com/analogdevicesinc/plutosdr-fw/blob/master/scripts/53-adi-plutosdr-usb.rules
+
+Sound OTG workaround. Connecting Pluto via USB HUB
