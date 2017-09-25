@@ -49,5 +49,6 @@ Sound OTG workaround. Connecting Pluto via simple USB HUB
 [ 3600.191102] sd 4:0:0:0: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
 [ 3600.197575]  sdc: sdc1
 [ 3600.199352] sd 4:0:0:0: [sdc] Attached SCSI removable disk
-
 ```
+Ordered fast USB3 hub
+
