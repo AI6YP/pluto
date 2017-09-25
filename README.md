@@ -29,4 +29,25 @@ Still getting OTG errors:
 added rules file from here:
 https://github.com/analogdevicesinc/plutosdr-fw/blob/master/scripts/53-adi-plutosdr-usb.rules
 
-Sound OTG workaround. Connecting Pluto via USB HUB
+Sound OTG workaround. Connecting Pluto via simple USB HUB
+```
+[ 3599.044928] usb 3-13.3: new full-speed USB device number 118 using xhci_hcd
+[ 3599.165320] usb 3-13.3: not running at top speed; connect to a high speed hub
+[ 3599.166923] usb 3-13.3: New USB device found, idVendor=0456, idProduct=b673
+[ 3599.166925] usb 3-13.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 3599.166926] usb 3-13.3: Product: PlutoSDR (ADALM-PLUTO)
+[ 3599.166927] usb 3-13.3: Manufacturer: Analog Devices Inc.
+[ 3599.166928] usb 3-13.3: SerialNumber: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[ 3599.170803] usb-storage 3-13.3:1.2: USB Mass Storage device detected
+[ 3599.170943] scsi host4: usb-storage 3-13.3:1.2
+[ 3599.171232] cdc_acm 3-13.3:1.3: ttyACM0: USB ACM device
+[ 3600.189388] scsi 4:0:0:0: Direct-Access     Linux    File-Stor Gadget 0406 PQ: 0 ANSI: 2
+[ 3600.189681] sd 4:0:0:0: Attached scsi generic sg2 type 0
+[ 3600.190636] sd 4:0:0:0: [sdc] 61441 512-byte logical blocks: (31.5 MB/30.0 MiB)
+[ 3600.190866] sd 4:0:0:0: [sdc] Write Protect is off
+[ 3600.190869] sd 4:0:0:0: [sdc] Mode Sense: 0f 00 00 00
+[ 3600.191102] sd 4:0:0:0: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 3600.197575]  sdc: sdc1
+[ 3600.199352] sd 4:0:0:0: [sdc] Attached SCSI removable disk
+
+```
