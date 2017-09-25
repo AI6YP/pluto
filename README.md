@@ -20,22 +20,9 @@ Reading [PLUTOSDR QUICKSTART GUIDE](https://www.rtl-sdr.com/plutosdr-quickstart-
 
 Still getting OTG errors:
 ```
-[ 3406.372055] usb 3-13.3: USB disconnect, device number 96
-[ 3406.372147] rndis_host 3-13.3:1.0 enp0s20u13u3: unregister 'rndis_host' usb-0000:00:14.0-13.3, RNDIS device
-[ 3406.427204] sd 4:0:0:0: [sdc] Synchronizing SCSI cache
-[ 3406.427230] sd 4:0:0:0: [sdc] Synchronize Cache(10) failed: Result: hostbyte=DID_NO_CONNECT driverbyte=DRIVER_OK
 [ 3416.718801] usb 3-14: new high-speed USB device number 97 using xhci_hcd
 [ 3416.860322] usb 3-14: Dual-Role OTG device on non-HNP port
 [ 3416.860430] usb 3-14: set a_alt_hnp_support failed: -32
-[ 3416.978748] usb 3-14: new high-speed USB device number 98 using xhci_hcd
-[ 3417.120448] usb 3-14: Dual-Role OTG device on non-HNP port
-[ 3417.120563] usb 3-14: set a_alt_hnp_support failed: -32
-[ 3417.238766] usb 3-14: new high-speed USB device number 99 using xhci_hcd
-[ 3417.260564] usb 3-14: Dual-Role OTG device on non-HNP port
-[ 3417.260680] usb 3-14: set a_alt_hnp_support failed: -32
-[ 3417.378768] usb 3-14: new high-speed USB device number 100 using xhci_hcd
-[ 3417.400562] usb 3-14: Dual-Role OTG device on non-HNP port
-[ 3417.400680] usb 3-14: set a_alt_hnp_support failed: -32
 [ 3417.400704] usb usb3-port14: unable to enumerate USB device
 ```
 
