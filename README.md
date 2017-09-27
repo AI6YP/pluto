@@ -66,6 +66,9 @@ Drown in build / install process ... zzz
 
 ### 2017-09-26
 
-Reading reviews: https://www.rtl-sdr.com/adalm-pluto-sdr-unboxing-and-initial-testing/
+Reading reviews:
 
+https://www.rtl-sdr.com/adalm-pluto-sdr-unboxing-and-initial-testing/
+
+https://wiki.analog.com/resources/tools-software/linux-software/gnuradio
 
