@@ -52,3 +52,13 @@ Sound OTG workaround. Connecting Pluto via simple USB HUB
 ```
 Ordered fast USB3 hub
 
+## 2017-09-25
+
+Installed USB3 HUB. Plug&Play smooth.
+
+Trying to run GQRX with Pluto.
+Have to build gr-osmosdr-gqrx/plutosdr branch https://github.com/csete/gr-osmosdr-gqrx/tree/plutosdr
+Hve my fork to fix errors: https://github.com/drom/gr-osmosdr-gqrx/tree/plutosdr
+
+
+
