@@ -57,8 +57,11 @@ Ordered fast USB3 hub
 Installed USB3 HUB. Plug&Play smooth.
 
 Trying to run GQRX with Pluto.
+
 Have to build gr-osmosdr-gqrx/plutosdr branch https://github.com/csete/gr-osmosdr-gqrx/tree/plutosdr
-Hve my fork to fix errors: https://github.com/drom/gr-osmosdr-gqrx/tree/plutosdr
+
+Have my fork to fix errors: https://github.com/drom/gr-osmosdr-gqrx/tree/plutosdr
+
 
 
 
