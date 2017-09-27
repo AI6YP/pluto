@@ -62,6 +62,10 @@ Have to build gr-osmosdr-gqrx/plutosdr branch https://github.com/csete/gr-osmosd
 
 Have my fork to fix errors: https://github.com/drom/gr-osmosdr-gqrx/tree/plutosdr
 
+Drown in build / install process ... zzz
 
+### 2017-09-26
+
+Reading reviews: https://www.rtl-sdr.com/adalm-pluto-sdr-unboxing-and-initial-testing/
 
 
