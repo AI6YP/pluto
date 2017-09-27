@@ -72,3 +72,6 @@ https://www.rtl-sdr.com/adalm-pluto-sdr-unboxing-and-initial-testing/
 
 https://wiki.analog.com/resources/tools-software/linux-software/gnuradio
 
+Compiled: libiio, libad9361-iio, gr-iio
+
+Can see PlutoSDR Source / Sink in GNU Radio companion
