@@ -105,3 +105,14 @@ Traceback (most recent call last):
 AttributeError: 'module' object has no attribute 'pluto_source'
 
 ```
+
+Looking for my Pluto:
+
+```
+rom@drom:~/work/github/drom/pluto> iio_info -s
+Library version: 0.10 (git tag: a826645)
+Compiled with backends: local xml ip usb
+Available contexts:
+        0: 0456:b673 (Analog Devices Inc. PlutoSDR (ADALM-PLUTO)), serial=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [usb:1.50.5]
+
+```
