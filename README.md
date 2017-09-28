@@ -116,3 +116,9 @@ Available contexts:
         0: 0456:b673 (Analog Devices Inc. PlutoSDR (ADALM-PLUTO)), serial=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [usb:1.50.5]
 
 ```
+
+Now I need USB support?
+
+https://www.plutosdr.com/viewtopic.php?f=6&t=5
+
+
