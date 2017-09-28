@@ -64,7 +64,7 @@ Have my fork to fix errors: https://github.com/drom/gr-osmosdr-gqrx/tree/plutosd
 
 Drown in build / install process ... zzz
 
-### 2017-09-26
+## 2017-09-26
 
 Reading reviews:
 
@@ -76,7 +76,7 @@ Compiled: libiio, libad9361-iio, gr-iio
 
 Can see PlutoSDR Source / Sink in GNU Radio companion
 
-### 2017-09-27
+## 2017-09-27
 
 Getting error:
 
@@ -91,7 +91,7 @@ Trying this instruction:
 
 https://github.com/blurbdust/gr-iio
 
-### 2017-09-28
+## 2017-09-28
 
 Still errors:
 ```
