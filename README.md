@@ -86,4 +86,9 @@ Traceback (most recent call last):
     from gnuradio import iio
 ImportError: cannot import name iio
 ```
-```
+
+Trying this instruction:
+
+https://github.com/blurbdust/gr-iio
+
+
