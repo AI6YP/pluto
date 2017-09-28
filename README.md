@@ -91,4 +91,17 @@ Trying this instruction:
 
 https://github.com/blurbdust/gr-iio
 
+### 2017-09-28
 
+Still errors:
+```
+Traceback (most recent call last):
+  File "/home/drom/work/github/drom/pluto/top_block.py", line 149, in <module>
+    main()
+  File "/home/drom/work/github/drom/pluto/top_block.py", line 137, in main
+    tb = top_block_cls()
+  File "/home/drom/work/github/drom/pluto/top_block.py", line 109, in __init__
+    self.pluto_source_0 = iio.pluto_source('local:', 2400000000, 2084000, 1 - 1, 20000000, 0x8000, True, True, True, "manual", 64.0, '', True)
+AttributeError: 'module' object has no attribute 'pluto_source'
+
+```
