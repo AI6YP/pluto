@@ -75,3 +75,15 @@ https://wiki.analog.com/resources/tools-software/linux-software/gnuradio
 Compiled: libiio, libad9361-iio, gr-iio
 
 Can see PlutoSDR Source / Sink in GNU Radio companion
+
+### 2017-09-27
+
+Getting error:
+
+```
+Traceback (most recent call last):
+  File "/home/drom/work/github/drom/pluto/top_block.py", line 23, in <module>
+    from gnuradio import iio
+ImportError: cannot import name iio
+```
+```
