@@ -121,4 +121,10 @@ Now I need USB support?
 
 https://www.plutosdr.com/viewtopic.php?f=6&t=5
 
+## 2017-09-29
+
+Removed all gnuradio,sdr related packages installed by Yast and trying to do everything using pyBOMBS.
+
+https://www.gnuradio.org/blog/pybombs-the-what-the-how-and-the-why/
+
 
