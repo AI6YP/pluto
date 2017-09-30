@@ -127,4 +127,32 @@ Removed all gnuradio,sdr related packages installed by Yast and trying to do eve
 
 https://www.gnuradio.org/blog/pybombs-the-what-the-how-and-the-why/
 
+## 2017-09-30
 
+Stuck with compiling pyqt4
+```
+g++ -c -pipe -fno-strict-aliasing -O2 -fPIC -Wall -W -D_REENTRANT -DQT_WEBKIT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/default -I. -I/usr/include/QtCore -I/usr/include/QtGui -I/usr/include -I/usr/include/python2.7 -I../../QtCore -I. -I. -o qpycore_chimera.o qpycore_chimera.cpp                                                                                                                         
+qpycore_chimera.cpp: In member function ‘void Chimera::set_flag()’:
+qpycore_chimera.cpp:376:22: error: ‘pyqt4ClassTypeDef’ was not declared in this scope
+         _is_flag = ((pyqt4ClassTypeDef *)_type)->qt4_flags & 0x01;
+                      ^~~~~~~~~~~~~~~~~
+qpycore_chimera.cpp:376:22: note: suggested alternative: ‘sipClassTypeDef’
+         _is_flag = ((pyqt4ClassTypeDef *)_type)->qt4_flags & 0x01;
+                      ^~~~~~~~~~~~~~~~~
+                      sipClassTypeDef
+qpycore_chimera.cpp:376:41: error: expected primary-expression before ‘)’ token
+         _is_flag = ((pyqt4ClassTypeDef *)_type)->qt4_flags & 0x01;
+                                         ^
+qpycore_chimera.cpp:376:42: error: expected ‘)’ before ‘_type’
+         _is_flag = ((pyqt4ClassTypeDef *)_type)->qt4_flags & 0x01;
+                                          ^~~~~
+make[2]: *** [Makefile:274: qpycore_chimera.o] Error 1
+make[2]: Leaving directory '/home/drom/prefix/default/src/pyqt4/qpy/QtCore'
+make[1]: *** [Makefile:3: all] Error 2
+make[1]: Leaving directory '/home/drom/prefix/default/src/pyqt4/qpy'
+make: *** [Makefile:3: all] Error 2
+PyBOMBS.Packager.source - ERROR - Build failed. See output above for error messages.
+PyBOMBS.Packager.source - ERROR - Problem occurred while building package pyqt4:
+Build failed.
+PyBOMBS.install_manager - ERROR - Error installing package pyqt4. Aborting.
+```
