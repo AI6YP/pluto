@@ -156,3 +156,15 @@ PyBOMBS.Packager.source - ERROR - Problem occurred while building package pyqt4:
 Build failed.
 PyBOMBS.install_manager - ERROR - Error installing package pyqt4. Aborting.
 ```
+
+## 2017-10-05
+
+Stoped playing with BOMBS.
+Installedd all packages from OpenSuSe / hamradio repo.
+Compiled 3 analog devices packages:
+[libiio](https://github.com/analogdevicesinc/libiio)
+[libad9361-iio](https://github.com/analogdevicesinc/libad9361-iio)
+[gr-iio](https://github.com/analogdevicesinc/gr-iio)*
+* On `gr-iio` Used advice from: https://github.com/analogdevicesinc/gr-iio/issues/11
+
+IT WORKS! RX and TX
