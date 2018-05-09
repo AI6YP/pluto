@@ -49,3 +49,14 @@ make -j
 sudo make install
 sudo ldconfig
 ```
+
+```sh
+git clone https://github.com/csete/gr-osmosdr-gqrx.git
+cd gr-osmosdr-gqrx
+mkdir build
+cd build/
+cmake ../
+make
+sudo make install
+sudo ldconfig
+```
