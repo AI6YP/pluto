@@ -1,5 +1,7 @@
 How to build drivers for ADALM Pluto SDR under OpenSuSe
 
+[Bringup Story](BLOG.md)
+
 ## Dependencies
 
 ```sh
@@ -12,7 +14,7 @@ sudo zypper in python-devel swig
 
 ## Build
 
-```
+```sh
 git clone https://github.com/analogdevicesinc/libiio
 
 cd libiio
