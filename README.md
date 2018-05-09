@@ -60,3 +60,5 @@ make
 sudo make install
 sudo ldconfig
 ```
+
+https://github.com/csete/gqrx
