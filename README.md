@@ -62,3 +62,7 @@ sudo ldconfig
 ```
 
 https://github.com/csete/gqrx
+
+# Extend Frequency range 70MHz - 6GHz
+
+https://wiki.analog.com/university/tools/pluto/users/customizing#updating_to_the_ad9364
